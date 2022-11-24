@@ -94,6 +94,13 @@ body{
    
     
 }
+.footer li{
+    padding-left:50px ;
+    list-style: none;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
 form{
     align-content: center;
 }
