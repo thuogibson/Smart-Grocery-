@@ -1,0 +1,104 @@
+Assignment Type:
+Coursework
+Service:
+Writing
+Pages/Words:
+1 pages / 275 words (Double spacing)
+Education Level:
+College
+Language:
+English (US) 
+Your Deadline: 1 day
+Assignment Topic:
+Externally Linked CSS and Site Navigation
+Subject:
+Web design
+Upload files
+There are no files here
+Instructions
+In this assessment, you will create your site navigation and a single external CSS file that controls text elements on each of your Web pages.
+
+Complete the following: 
+
+1. Create and save an externally linked, CSS3-compliant style sheet to control all your Web pages (see page list below). It should define properties (such as position, margin, padding, font-family, color, size, et cetera) for each of the following: 
+Headlines. 
+Header. 
+Body text. 
+Background (image or color) 
+Navigation (use an unordered list to format the list items for navigation). 
+Footer (location/font size and color). 
+Anchor links (current, hover, visited). 
+
+2. Update the code in your homepage and template to link to the new style sheet. 
+
+3. Use your page template to create the other four pages for the site and title each appropriately:
+About Us. 
+Services. 
+Gallery. 
+Contact Us. 
+
+4. Create functional page navigation using CSS. Use textual links using either a horizontal navigation across the top or vertical navigation down the left side. 
+
+5. Define text and background properties for all page elements using CSS. 
+
+6. Make sure to enter context-appropriate text in the content sections for each of the pages to demonstrate that the formatting and design are consistent across the site.
+
+7. Submit error-free HTML5 and CSS code.
+723459
+20 hours ago
+Submit your work in the courseroom using a single zip file containing the following:
+
+index.html.
+template.html.
+image_and_url.doc. Include a Word document with:
+The URLs for each of your pages.
+The names of the browsers you used to view the pages.
+Pasted images from your validation screen capture.
+Any ancillary files such as graphic or photos you may have decided to include.
+Upload your Web site files to your Web host.
+
+Assignment Type:
+Coursework
+Service:
+Writing
+Pages/Words:
+1 pages / 275 words (Double spacing)
+Education Level:
+College
+Language:
+English (US) 
+Your Deadline:1 day)
+Assignment Topic:
+Creating the Home and Template Page
+Subject:
+Web design
+Upload files
+There are no files here
+Instructions
+In this assessment, you will start building your Web site for your fictional organization by creating a homepage using HTML5 and some of the key elements that define a Web page. You are required to use either a simple text editor to write your code, or an enhanced text editor such as Brackets, linked in the Resources under the Suggested Resources heading.
+
+Using a text editor, create an HTML5-compliant homepage with a file name of index.htm. The page should include the following page sections: 
+
+1. Header: Include the organization name and logo. 
+
+2. Navigation: Include links to all site pages (including the homepage). 
+
+3. Content: This section will later be customized for each of the site pages. For the home page, it should, at a minimum, consist of information that introduces the organization. 
+
+4. Footer: Include secondary navigation, copyright notice, or other text of your choosing. 
+
+5. Include the following tags in the code: title, article, section, head, header, html, body, footer, nav, and doctype. 
+
+6. Make sure to include developer comments for each page section to explain or describe the coding. 
+
+7. Include a comment block at the top of each of your Web pages with your name, the date, the file name, and a short blurb about what the page will consist of.
+
+Submit your work in the courseroom using a single zip file containing the following: 
+
+index.html.
+template.html.
+image_and_url.doc. Include a Word document with:
+URLs for each of your pages.
+Names of the browsers you used to view the pages.
+Pasted image from your validation screen capture.
+Any ancillary files such as graphic or photos you may have decided to include.
