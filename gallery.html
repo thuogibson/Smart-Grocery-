@@ -1,0 +1,212 @@
+	<!--
+  Name=
+  Date=
+  file name=gallery.html
+  this page contain gallery template
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--External css file link-->
+<link rel="stylesheet" type="text/css" href="smart.css"  />
+    <!--Interna styling start-->
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3ea394;
+  padding: 20px;
+  font-family: Arial;
+}   <!--Internal styling ends-->
+           
+.footer{
+  width:100%;
+}
+.header{
+  width:100%;
+}
+</style>
+   <!--Internal styling ends-->
+           
+</head>
+<body>
+  <header>
+    <div class="header">
+      <img src="Smart-Grocery-app-logo.jpg" alt="logo" />
+      <br>
+      <h1>Smart Grocery</h1>
+     
+    </div>
+
+    <div class="Tabs">  
+    
+      <nav>
+        
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="About.html">About us</a></li>
+  <li><a href="services.html">Services</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+
+  </header>
+
+  <br>
+<!-- MAIN (Center website) -->
+<div class="main">
+
+
+<h2>Smart grocery gallery</h2>
+
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('Vegetables')"> vegetables</button>
+  <button class="btn" onclick="filterSelection('Greens')"> Greens</button>
+  <button class="btn" onclick="filterSelection('Fruits')"> Fruits</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column Vegetables">
+    <div class="content">
+      <img src="images.jpg" alt="Mountains" style="width:100%">
+      <h4>fruits</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Vegetables">
+    <div class="content">
+    <img src="images.jpg" alt="Lights" style="width:100%">
+      <h4>greens</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Vegetables">
+    <div class="content">
+    <img src="Smart-Grocery-app-logo.jpg" alt="Vegetables" style="width:100%">
+      <h4>greens</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  
+  <div class="column Greens">
+    <div class="content">
+      <img src="Smart-Grocery-app-logo.jpg" alt="Car" style="width:100%">
+      <h4>Greens</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Greens">
+    <div class="content">
+    <img src="Smart-Grocery-app-logo.jpg" alt="Greens" style="width:100%">
+      <h4>Vegetables</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Greens">
+    <div class="content">
+    <img src="fruits.jpg" alt="Greens" style="width:100%">
+      <h4>Greens</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column Fruits">
+    <div class="content">
+      <img src="fruits.jpg" alt="Greens" style="width:100%">
+      <h4>Fruits</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Fruits">
+    <div class="content">
+    <img src="fruits.jpg" alt="Greens" style="width:100%">
+      <h4>Fruits</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column Fruits">
+    <div class="content">
+    <img src="fruits.jpg" alt="Greens" style="width:100%">
+      <h4></h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+<div class="footer">
+          <div class="colum1"><div class="list"> <ul>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+            <li><a href="#">Footer link</a></li>
+        
+          </ul></div></div>
+            
+          <div class="colum2">
+            &copy; Copyright 2022 ALL-Right Reserved
+
+          </div> 
+
+         
+        </footer>
+
+</body>
+</html>
